@@ -10,7 +10,7 @@ README = ( HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="hello-world-app",
-    version="1.0.0",
+    version="1.1.0",
     description="Hello world app",
     long_description=README,
     long_description_content_type="text/markdown",

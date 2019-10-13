@@ -35,7 +35,12 @@ pip install hello_world_app
 python -m hello_world_app
 ```
 
-
+### Bump version of Python Package
+```bash
+#minor bump
+bumpversion --current-version 1.0.0 minor setup.py hello_world_app/__init__.py
+bumpversion --current-version 1.1.0 major setup.py hello_world_app/__init__.py
+```
 
 
 
