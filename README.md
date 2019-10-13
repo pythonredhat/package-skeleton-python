@@ -37,9 +37,14 @@ python -m hello_world_app
 
 ### Bump version of Python Package
 ```bash
+pip install bumpversion
+#first ensure git working directory is clean or bump will fail
+#patch bump
+bumpversion --current-version 1.1.0 patch setup.py hello_world_app/__init__.py
 #minor bump
 bumpversion --current-version 1.0.0 minor setup.py hello_world_app/__init__.py
-bumpversion --current-version 1.1.0 major setup.py hello_world_app/__init__.py
+#major bump
+bumpversion --current-version 1.1.1 major setup.py hello_world_app/__init__.py
 ```
 
 
