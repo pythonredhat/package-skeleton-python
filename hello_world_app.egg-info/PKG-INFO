@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: hello-world-app
+Version: 1.0.0
+Summary: Hello world app
+Home-page: https://github.com/pythonredhat/package-skeleton-python
+Author: Turbo Python
+Author-email: office@realpython.com
+License: MIT
+Description: ### Real Python: Python Packaging 
+        ```bash
+        https://realpython.com/pypi-publish-python-package/
+        ```
+        
+        ### Python Packaging Authority
+        ```bash
+        https://packaging.python.org/guides/distributing-packages-using-setuptools/#distributing-packages
+        ```
+        
+        ### Build Python Package
+        ```bash
+        python setup.py sdist bdist_wheel
+        ```
+        
+        ### Run all unit tests in test folder
+        ```bash
+        python -m unittest discover
+        ```
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
