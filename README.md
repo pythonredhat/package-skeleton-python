@@ -29,6 +29,12 @@ pip install your-package-name
 pip install hello_world_app
 ```
 
+### Run Python Package
+```bash
+#from root directory
+python -m hello_world_app
+```
+
 
 
 
