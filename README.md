@@ -8,6 +8,16 @@ https://realpython.com/pypi-publish-python-package/
 https://packaging.python.org/guides/distributing-packages-using-setuptools/#distributing-packages
 ```
 
+### Pipenv Setup
+```bash
+#build virtual enviornment
+pipenv --three
+pipenv --python 3.6
+
+#enter virtual enviornment
+pipenv shell
+```
+
 ### Build Python Package
 ```bash
 python setup.py sdist bdist_wheel
