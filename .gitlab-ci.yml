@@ -1,0 +1,14 @@
+image: "python:3.7"
+
+before_script:
+  - python --version
+  - pip install pipenv
+  - pipenv install --dev
+
+stages:
+  - Test
+
+unittest:
+  stage: Test
+  script:
+  - python -m unittest discover
