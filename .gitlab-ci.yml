@@ -4,6 +4,7 @@ before_script:
   - python --version
   - pip install pipenv
   - pipenv install 
+  - pipenv install requests
 
 stages:
   - Test
