@@ -3,8 +3,8 @@ image: "python:3.7"
 before_script:
   - python --version
   - pip install pipenv
+  - pipenv shell
   - pipenv install 
-  - pipenv install requests
 
 stages:
   - Test
