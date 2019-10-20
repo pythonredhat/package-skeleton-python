@@ -2,6 +2,9 @@ import requests
 import json
 from configparser import ConfigParser
 from importlib import resources
+import logging
+
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s:%(levelname)s:%(message)s")
 
 def main():
     #get config
@@ -11,10 +14,18 @@ def main():
     
     #test code
     response = requests.get(url=url)
-    print (response.status_code)
-    print (response.content)
+    
+    #instead of print, log it
+    logging.debug(response.status_code)
+    #print (response.status_code)
+    
+    #instead or print, log it
+    logging.debug(response.content)
+    #print (response.content)
+
     json_data = json.loads(response.text)
     github_latest_version = (json_data["name"])
+
     print(f"Latest version on Github is {github_latest_version}")
 
 if __name__ == "__main__":
