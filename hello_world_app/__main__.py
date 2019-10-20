@@ -4,7 +4,7 @@ from configparser import ConfigParser
 from importlib import resources
 import logging
 
-logging.basicConfig(level=logging.DEBUG, format="%(asctime)s:%(levelname)s:%(message)s")
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s:%(levelname)s:%(message)s", filename="./logs/test.log")
 
 def main():
     #get config

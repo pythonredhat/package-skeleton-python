@@ -57,6 +57,11 @@ bumpversion --current-version 1.0.0 minor setup.py hello_world_app/__init__.py
 bumpversion --current-version 1.1.1 major setup.py hello_world_app/__init__.py
 ```
 
+### Add logging
+```bash
+https://www.digitalocean.com/community/tutorials/how-to-use-logging-in-python-3
+```
+
 
 
 
